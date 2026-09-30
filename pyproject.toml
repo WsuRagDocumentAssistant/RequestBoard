@@ -1,0 +1,12 @@
+[project]
+name = "request-board"
+version = "0.1.0"
+description = "기능 개선 요청 게시판 객체"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["request_board*"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
